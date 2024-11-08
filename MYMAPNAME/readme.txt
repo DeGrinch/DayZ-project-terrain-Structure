@@ -1,0 +1,1 @@
+This is where your core "world" files, navmesh, source code and satmap content all exist. You could put all of your mods inside of this folder as well if you really wanted to, but it's often best to put additional mod and related mod data into it's own folder per mod.
