@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class smpl_test_clothingretexture
+	class mymapname_clothingretexture
 	{
 		units[] = {};
 		weapons[] = {};
@@ -10,19 +10,19 @@ class CfgPatches
 			"DZ_Data",
 			"DZ_Characters_Tops"
 		};
-		author = "";
-		name = "";
-		url = "";
+		author = "myauthorname";
+		name = "myaddonname";
+		url = "mywebsitename";
 	};
 };
 
 class CfgVehicles
 {
 	class GorkaEJacket_ColorBase;
-	class sample_gorka_retexture: GorkaEJacket_ColorBase
+	class mymapname_gorka_retexture: GorkaEJacket_ColorBase
 	{
 		scope = 2;
-		displayName = "Sample Gorka retexture";
+		displayName = "mymapname Gorka retexture";
 		descriptionShort = "This is a simple gorka retexture with ability to change both textures and materials.";
 		// link the textures here
 		hiddenSelectionsTextures[] =
@@ -34,9 +34,9 @@ class CfgVehicles
 		// link the materials here
 		hiddenSelectionsMaterials[]=
 		{
-			"samples\test_clothingretexture\data\gorka_normal_g.rvmat",		// on-ground material
-			"samples\test_clothingretexture\data\gorka_normal.rvmat",		// on-character material
-			"samples\test_clothingretexture\data\gorka_normal.rvmat"		// on-character material
+			"mymapname_clothingretexture\data\gorka_normal_g.rvmat",		// on-ground material
+			"mymapname_clothingretexture\data\gorka_normal.rvmat",		// on-character material
+			"mymapname_clothingretexture\data\gorka_normal.rvmat"		// on-character material
 		};
 		// this can be deplicated from the clothing base class, some adjustments are necessary for healthLevels[]
 		class DamageSystem
@@ -51,13 +51,13 @@ class CfgVehicles
 						// always needs to be the same as in original model
 						{1.01,{"DZ\characters\tops\Data\GorkaUpper.rvmat","DZ\characters\tops\Data\GorkaUpper_g.rvmat"}},
 						// materials (worn state)
-						{0.70,{"samples\test_clothingretexture\data\gorka_normal.rvmat","samples\test_clothingretexture\data\gorka_normal_g.rvmat"}},
+						{0.70,{"mymapname_clothingretexture\data\gorka_normal.rvmat","mymapname_clothingretexture\data\gorka_normal_g.rvmat"}},
 						// materials (damaged state)
-						{0.50,{"samples\test_clothingretexture\data\gorka_normal_damage.rvmat","samples\test_clothingretexture\data\gorka_normal_g_damage.rvmat"}},
+						{0.50,{"mymapname_clothingretexture\data\gorka_normal_damage.rvmat","mymapname_clothingretexture\data\gorka_normal_g_damage.rvmat"}},
 						// materials (badly damaged state)
-						{0.30,{"samples\test_clothingretexture\data\gorka_normal_damage.rvmat","samples\test_clothingretexture\data\gorka_normal_g_damage.rvmat"}},
+						{0.30,{"mymapname_clothingretexture\data\gorka_normal_damage.rvmat","mymapname_clothingretexture\data\gorka_normal_g_damage.rvmat"}},
 						// materials (ruined state)
-						{0.01,{"samples\test_clothingretexture\data\gorka_normal_destruct.rvmat","samples\test_clothingretexture\data\gorka_normal_g_destruct.rvmat"}}
+						{0.01,{"mymapname_clothingretexture\data\gorka_normal_destruct.rvmat","mymapname_clothingretexture\data\gorka_normal_g_destruct.rvmat"}}
 					};
 				};
 			};

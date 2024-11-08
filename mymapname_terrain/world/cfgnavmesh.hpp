@@ -1,4 +1,4 @@
-navmeshName = "zelador\navmesh\zelador.nm";
+navmeshName = "mymapname\navmesh\mymapname.nm";
 filterIsolatedIslandsOnLoad = true;
 visualiseOffset = 0.0;
 

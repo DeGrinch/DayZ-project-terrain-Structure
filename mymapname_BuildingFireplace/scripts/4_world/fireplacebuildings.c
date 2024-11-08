@@ -1,3 +1,3 @@
-class land_sample_building_fireplace extends BuildingWithFireplace
+class land_mymapname_building_fireplace extends BuildingWithFireplace
 {
 }

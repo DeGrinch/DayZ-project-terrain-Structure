@@ -1,16 +1,19 @@
 class CfgPatches
 {
-	class Test_Inputs
+	class mymapname_Inputs
 	{
 		requiredAddons[]={"DZ_Data"};
+		author = "myauthorname";
+		name = "myaddonname";
+		url = "mywebsitename";
 	};
 };
 
 class CfgMods
 {
-	class Test_Inputs
+class mymapname_Inputs
 	{
-		inputs = "samples\test_inputs\my_new_inputs.xml";
+		inputs = "mymapname_inputs\my_new_inputs.xml";
 		type = "mod";
 
 		class defs
@@ -18,13 +21,13 @@ class CfgMods
 			class gameScriptModule
 			{
 				value="";
-				files[]={"samples/test_inputs/scripts/gameModule"};
+				files[]={"mymapname_inputs/scripts/gameModule"};
 			};
 
 			class worldScriptModule
 			{
 				value="";
-				files[]={"samples/test_inputs/scripts/worldModule"};
+				files[]={"mymapname_inputs/scripts/worldModule"};
 			};
 		}
 		

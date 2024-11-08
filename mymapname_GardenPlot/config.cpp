@@ -1,17 +1,20 @@
 class CfgPatches
 {
-	class Test_GardenPlot
+	class mymapname_GardenPlot
 	{
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]={"DZ_Data"};
+		author = "myauthorname";
+		name = "myaddonname";
+		url = "mywebsitename";
 	};
 };
 
 class CfgMods
 {
-	class Test_GardenPlot
+class mymapname_GardenPlot
 	{	
 		type = "mod";
 		
@@ -20,7 +23,7 @@ class CfgMods
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"samples/Test_GardenPlot/Scripts"};
+				files[] = {"mymapname_GardenPlot/Scripts"};
 			};
 		}
 	};
@@ -29,10 +32,10 @@ class CfgMods
 class CfgVehicles
 {
 	class Inventory_Base;
-	class Test_GardenPlot : Inventory_Base
+class mymapname_GardenPlot : Inventory_Base
 	{
 		scope = 2;
-		model = "Samples\Test_GardenPlot\Test_GardenPlot.p3d";
+		model = "mymapname_GardenPlot\Test_GardenPlot.p3d";
 
 		storageCategory = 1;
 

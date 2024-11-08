@@ -1,18 +1,21 @@
 class CfgPatches
 {
-	class smpl_structures_doors
+	class mymapname_structures_doors
 	{
 		requiredAddons[] = {"DZ_Data"};
+		author = "myauthorname";
+		name = "myaddonname";
+		url = "mywebsitename";
 	};
 };
 
 class CfgVehicles
 {
 	class HouseNoDestruct;
-	class land_sample_building: HouseNoDestruct
+	class land_mymapname_building: HouseNoDestruct
 	{
 		scope = 1;
-		model = "samples\test_building\sample_building.p3d";
+		model = "mymapname_building\mymapname_building.p3d";
 		class Doors
 		{
 			class DoorsTwin1

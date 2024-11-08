@@ -1,14 +1,17 @@
 class CfgPatches
 {
-	class Test_Crafting
+	class mymapname_Crafting
 	{
 		requiredAddons[] = {"DZ_Data"};
+		author = "myauthorname";
+		name = "myaddonname";
+		url = "mywebsitename";
 	};
 };
 
 class CfgMods
 {
-	class Test_Crafting
+class mymapname_Crafting
 	{	
 		type = "mod";
 		
@@ -17,7 +20,7 @@ class CfgMods
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"samples/test_crafting/scripts/4_world"};
+				files[] = {"mymapname_crafting/scripts/4_world"};
 			};
 		}
 	};

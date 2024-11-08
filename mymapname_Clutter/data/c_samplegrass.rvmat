@@ -13,7 +13,7 @@ PixelShaderID="Grass";
 VertexShaderID="Grass";
 class Stage2
 {
-	texture="samples\test_clutter\data\c_samplegrass_nohq.tga";
+	texture="mymapname_clutter\data\c_samplegrass_nohq.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -25,7 +25,7 @@ class Stage2
 };
 class Stage3
 {
-	texture="samples\test_clutter\data\c_samplegrass_mask_co.tga";
+	texture="mymapname_clutter\data\c_samplegrass_mask_co.tga";
 	uvSource="tex1";
 	class uvTransform
 	{

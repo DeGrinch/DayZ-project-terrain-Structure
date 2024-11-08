@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class zelador_data
+	class mymapname_data
 	{
 		requiredAddons[] = {};
 	};

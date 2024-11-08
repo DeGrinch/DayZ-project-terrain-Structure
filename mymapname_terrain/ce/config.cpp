@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class "mymapname_navmesh
+	class mymapname_ce
 	{
 		requiredAddons[] = {};
 	};

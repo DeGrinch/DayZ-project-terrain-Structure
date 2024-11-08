@@ -1,7 +1,10 @@
 class CfgPatches
 {
-	class smpl_plants_clutter
+	class mymapname_plants_clutter
 	{
 		requiredAddons[] = {};
+		author = "myauthorname";
+		name = "myaddonname";
+		url = "mywebsitename";
 	};
 };

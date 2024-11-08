@@ -1,14 +1,14 @@
 class CfgPatches
 {
-	class zelador
+	class mymapname
 	{
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[]={"DZ_Data","DZ_Surfaces","DZ_Surfaces_Bliss","zelador_navmesh","zelador_data"};
-		author="CMOGAMING";
-		name="zelador";
-		url="www.cmogaming.com";
+		requiredAddons[]={"DZ_Data","DZ_Surfaces","DZ_Surfaces_Bliss","mymapname_navmesh","mymapname_data"};
+		author = "myauthorname";
+		name = "myaddonname";
+		url = "mywebsitename";
 	};
 };
 class CfgWorlds
@@ -19,18 +19,18 @@ class CfgWorlds
 	{
 		class Grid;
 	};
-	class zelador: ChernarusPlus
+	class mymapname: ChernarusPlus
 	{
 		worldId=2;
 		cutscenes[]={};
-		description="zelador";
+		description="mymapname";
 		icon="";
-		worldName="zelador\world\zelador.wrp";
+		worldName="mymapname\world\mymapname.wrp";
 		pictureMap="";
 		pictureShot="";
-		oceanMaterial="{11D1156E1D9DADF0}Graphics/Materials/water/oceanold_samplemap.emat";
-		oceanNiceMaterial="{11D1156E1D9DADF0}Graphics/Materials/water/oceanold_samplemap.emat";
-		oceanStormMaterial="{11D1156E1D9DADF0}Graphics/Materials/water/oceanold_samplemap.emat";
+		oceanMaterial="{11D1156E1D9DADF0}Graphics/Materials/water/oceanold_mymapnamemap.emat";
+		oceanNiceMaterial="{11D1156E1D9DADF0}Graphics/Materials/water/oceanold_mymapnamemap.emat";
+		oceanStormMaterial="{11D1156E1D9DADF0}Graphics/Materials/water/oceanold_mymapnamemap.emat";
 	class Navmesh
 		{
 			#include "cfgNavmesh.hpp"
@@ -135,13 +135,13 @@ class CfgWorlds
 		};
 		class Names
 		{
-			#include "zelador.hpp"
+			#include "mymapname.hpp"
 		};
 	};
 };
 class CfgWorldList
 {
-	class zelador
+	class mymapname
 	{
 	};
 };

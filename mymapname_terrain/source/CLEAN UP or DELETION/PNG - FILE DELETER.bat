@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set "folderPath=P:\zeladordev\data\layers"
+set "folderPath=P:\mymapname\data\layers"
 
 echo 	OHHH NOOOO, NOW LOOK WHAT YOU HAVE DONE... THIS SCRIPT WILL
 echo. 
