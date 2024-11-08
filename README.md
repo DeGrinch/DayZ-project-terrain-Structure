@@ -1,17 +1,24 @@
 # DayZ Terrain, Mods and Configuration Templates Or Examples
 
-This project provides a comprehensive exploration of all aspects to/of the DayZ terrain, additional mods, file structures, and configurations within the DayZ environment. 
+This project provides a comprehensive exploration of all aspects to/of the DayZ terrain, additional mods, file structures, and configurations within the DayZ environment.
+ 
 This repo is structured similarly to the official [DayZ Samples repository](https://github.com/BohemiaInteractive/DayZ-Samples)
+
 However, this repo has some additional content, files, and/or support resources, intended to expand a bit further on the process of Modding in DayZ.
+
 The intention of this repo is to to guide you through the map development and modding process more smoothly and offer variety in explanation and practice(s) to allow various learning styles to comprehend the processes.
+
 We do not all learn the same way, so where you may see duplication or regurgitation through some of the files and content therein, this content is compiled with the interests of all that may be reading it, to learn.
+
 If you do not like the way these files are compiled, clone or fork the repo and create your own or even expand on what is missing in areas we've not made completely clear and you feel you can add to :) We welcome the additional and various perspectives we may not see or may over-look by mistake.
 
 As the saying goes "See a need, fill a need!"  :D  
 
 In addition to the foundational files, this repository includes `readme.txt` files, configuration changes, and links to helpful community resources. 
+
 These additions aim to streamline the installation process, simplify file organization, and offer additional insights into mod development.
-Some links may lead to repos or installation scripts which may include scripts or softwares which can include additional subscriptions or donation options to fully use said contents, however we will do our best to avoid linking to any such content or information which is prohibited or restricted by a pay wall.
+
+Some links may lead to software or services which may require additional subscriptions or donations for fully functional use of said software or services, however we will do our best to avoid linking to any such content or information which is strictly prohibited or restricted by any type of pay wall. 
  
 
 **Important Usage Note:**
